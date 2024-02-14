@@ -29,7 +29,7 @@ class InitializeDemo extends Command
         $this->createEnvFile();
         $this->createDatabase();
 
-        if (!$this->installDependencies()) {
+        if (!$this->checkDependencies()) {
             $this->error('Composer installation finished with error!');
 
             return;
@@ -72,7 +72,7 @@ class InitializeDemo extends Command
     /**
      * @return bool
      */
-    protected function installDependencies(): bool
+    protected function checkDependencies(): bool
     {
         $this->alert('Installing dependencies');
         $result = 0;
