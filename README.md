@@ -1,4 +1,5 @@
 # YAMAGUCHI API Demo Project
+Демонстрационный проект API на Laravel 10 для YAMAGUCHI.
 
 ## Requirements
 * [PHP ^8.1](https://www.php.net/downloads)
@@ -10,9 +11,6 @@
 ## 3rd parties
 * [tymon/jwt-auth](https://packagist.org/packages/tymon/jwt-auth)
 * [darkaonline/l5-swagger](https://packagist.org/packages/darkaonline/l5-swagger)
-
-## Description
-Демонстрационный проект API на Laravel 10 для YAMAGUCHI.
 
 ## Installation
 1. Склонировать репозиторий на локальный компьютер
